@@ -1,0 +1,73 @@
+extName: 快速二维码生成器
+extDescription: 快速生成和自定义您的二维码，支持自定义Logo和样式
+
+app:
+  title: 二维码生成器
+  subtitle: 快速生成和自定义您的二维码
+  sections:
+    preview: 二维码预览
+    input: 内容输入
+    download: 下载选项
+    about: 使用说明
+  placeholder: 输入内容生成二维码（文本、URL、联系方式等）
+  tip: 输入文字、网址或任何你想要转化为二维码的内容。内容越短，二维码越容易被扫描识别。
+  emptyPreview: 请在右侧输入内容生成二维码
+  downloadFormats:
+    png: PNG格式
+    jpg: JPG格式
+    webp: WEBP格式
+
+about:
+  title: 使用说明
+  items:
+    [
+      "可直接在输入框中输入文本、URL或任何需要转换为二维码的内容",
+      "在配置面板中可选择二维码样式（方块或圆点）、颜色和大小等参数",
+      "支持添加自定义Logo，可调整Logo大小、透明度和内边距样式",
+      "生成的二维码可下载为PNG、JPG或WEBP格式，点击下载按钮即可保存",
+      "在浏览网页时，可右键点击页面、选中文本或链接，选择相应菜单项直接生成二维码",
+    ]
+
+configPanel:
+  title: 二维码配置
+  basic:
+    title: 基本设置
+    ecLevel: 纠错级别
+    ecLevels:
+      L: 低 (7%)
+      M: 中 (15%)
+      Q: 标准 (25%)
+      H: 高 (30%)
+    size: 大小
+    margin: 边距
+    qrStyle: QR样式
+    qrStyles:
+      squares: 方块
+      dots: 圆点
+  colors:
+    title: 颜色设置
+    foreground: 前景色
+    background: 背景色
+  logo:
+    title: Logo设置
+    upload: 上传Logo
+    remove: 移除
+    width: Logo宽度
+    opacity: Logo透明度
+    removeQrBehind: 移除Logo后面的QR码
+    paddingStyle: Logo内边距样式
+    paddingStyles:
+      square: 方形
+      circle: 圆形
+  advanced:
+    title: 高级设置
+    enableCORS: 启用CORS
+
+downloadOptions:
+  title: 下载选项
+  formatLabel: 格式
+  download: 下载二维码
+  formats:
+    png: PNG格式
+    jpg: JPG格式
+    webp: WEBP格式

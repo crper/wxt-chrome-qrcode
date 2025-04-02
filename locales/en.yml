@@ -1,0 +1,73 @@
+extName: Quick QR Code Generator
+extDescription: Quickly generate and customize your QR codes, with logo and style options
+
+app:
+  title: QR Code Generator
+  subtitle: Quickly generate and customize your QR codes
+  sections:
+    preview: QR Code Preview
+    input: Content Input
+    download: Download Options
+    about: Instructions
+  placeholder: Enter content to generate QR code (text, URL, contact info, etc.)
+  tip: Enter text, URL, or anything you want to convert to a QR code. Shorter content makes QR codes easier to scan.
+  emptyPreview: Please enter content on the right to generate a QR code
+  downloadFormats:
+    png: PNG Format
+    jpg: JPG Format
+    webp: WEBP Format
+
+about:
+  title: Instructions
+  items:
+    [
+      "Directly input text, URL or any content you want to convert to QR code in the input box",
+      "Customize QR code style (squares or dots), colors and size in the configuration panel",
+      "Add custom Logo with adjustable size, opacity and padding style",
+      "Download generated QR code in PNG, JPG or WEBP format by clicking the download button",
+      "While browsing, right-click on page, selected text or links to directly generate QR code",
+    ]
+
+configPanel:
+  title: QR Code Configuration
+  basic:
+    title: Basic Settings
+    ecLevel: Error Correction Level
+    ecLevels:
+      L: Low (7%)
+      M: Medium (15%)
+      Q: Standard (25%)
+      H: High (30%)
+    size: Size
+    margin: Margin
+    qrStyle: QR Style
+    qrStyles:
+      squares: Squares
+      dots: Dots
+  colors:
+    title: Color Settings
+    foreground: Foreground Color
+    background: Background Color
+  logo:
+    title: Logo Settings
+    upload: Upload Logo
+    remove: Remove
+    width: Logo Width
+    opacity: Logo Opacity
+    removeQrBehind: Remove QR Code Behind Logo
+    paddingStyle: Logo Padding Style
+    paddingStyles:
+      square: Square
+      circle: Circle
+  advanced:
+    title: Advanced Settings
+    enableCORS: Enable CORS
+
+downloadOptions:
+  title: Download Options
+  formatLabel: Format
+  download: Download QR Code
+  formats:
+    png: PNG Format
+    jpg: JPG Format
+    webp: WEBP Format

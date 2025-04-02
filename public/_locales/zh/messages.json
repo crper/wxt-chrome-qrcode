@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "快速二维码生成器",
+        "description": "扩展名称"
+    },
+    "extDescription": {
+        "message": "快速生成和自定义您的二维码，支持自定义Logo和样式",
+        "description": "扩展描述"
+    }
+}

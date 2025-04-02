@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Quick QR Code Generator",
+        "description": "Extension name"
+    },
+    "extDescription": {
+        "message": "Quickly generate and customize your QR codes, with logo and style options",
+        "description": "Extension description"
+    }
+}
